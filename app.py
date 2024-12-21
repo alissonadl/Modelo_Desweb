@@ -25,4 +25,4 @@ db.init_app(app) #Sinaliza que o banco será gerenciado pelo app
 
 @app.route('/', methods = ["get","post"])
 def inicio():
-    return render_template("XXXX.html")
+    return render_template("inicio.html")
