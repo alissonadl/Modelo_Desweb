@@ -2,7 +2,7 @@ from flask import Flask, render_template, request #até aqui, já tinhamos visto
 import os #Biblioteca para ler arquivos como se fosse um "Sistema Operacional"
 from dotenv import load_dotenv #Biblioteca para trabalhar com arquivos env
 from flask_sqlalchemy import SQLAlchemy #Biblioteca necessária para mapear classes Python para tabelas do banco de dados relacional
-from models.usuario import * #Importando o nosso modelo de classe que será uma tabela no banco de dados
+from models.seu_modelo import * #Importando o nosso modelo de classe que será uma tabela no banco de dados
 from utilidades import * #Importando a instância do banco de dados lá no arquivo utilidades
 
 
